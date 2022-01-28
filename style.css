@@ -129,7 +129,7 @@ a {
 @media only screen and (max-width: 800px) {
     .intro-section__copy {
         font-size: 1em;
-        padding: 0em 0.6em;
+        padding: 0em 0.75em;
     }
 }
 
@@ -202,11 +202,13 @@ a {
 
 /* TEAM GRID */
 
-/*
 .growing_team-section {
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     color: rgb(58, 57, 57);
+    background-color: rgb(255, 255, 255);
+
   }
 
 .growing_team--headline {
@@ -238,7 +240,6 @@ a {
         padding: 0em 0.6em;
     }
 }
-*/
 
 #team {
     background-color: rgb(255, 255, 255);
@@ -355,8 +356,8 @@ a {
 
 @media only screen and (max-width: 600px) {
     .treatments--wrapper-flex__item {
-        font-size: 1em;
-        padding: 1em 0em;
+        font-size: 0.9em;
+        padding: 1.0em 0em;
         max-width: 200px;
         max-height: 200px;
     }
